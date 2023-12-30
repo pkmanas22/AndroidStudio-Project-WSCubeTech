@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- For multiple items use layer-list instead of selector-->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#9D00FF"/>
+
+            <!--<stroke android:color="#FF0008"
+                android:width="5dp"
+                android:dashWidth="5dp"
+                android:dashGap="10dp"/>-->
+
+            <!--<corners
+                android:topRightRadius="30dp"
+                android:bottomLeftRadius="30dp"/>-->
+<!--            the above is for specific corner. If u want all corner, then-->
+<!--            android:radius="15dp"-->
+
+            <size
+                android:width="200dp"
+                android:height="200dp"/>
+
+            <gradient
+                android:startColor="#FF3300"
+                android:centerColor="#FFF"
+                android:endColor="#00FF2A"
+                android:angle="270"
+                android:type="radial"
+                android:gradientRadius="100dp"/>
+<!--                default gradient type is linear-->
+        </shape>
+
+    </item>
+</selector>

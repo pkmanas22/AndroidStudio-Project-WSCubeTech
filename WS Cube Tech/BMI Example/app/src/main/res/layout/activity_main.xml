@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/liMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <!-- ID for the parent layout -->
+    <!-- Centers child views horizontally -->
+
+    <!-- EditText for user weight input -->
+    <EditText
+    android:id="@+id/weight"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/hint_wt"
+    android:inputType="number" />
+
+    <!-- EditText for user height input in feet -->
+    <EditText
+    android:id="@+id/feet"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/hint_hf"
+    android:inputType="number" />
+
+    <!-- EditText for user height input in inches -->
+    <EditText
+    android:id="@+id/inch"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/hint_hi"
+    android:inputType="number" />
+
+    <!-- Button to trigger BMI calculation -->
+    <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/calculate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="Calculate BMI" />
+
+    <!-- TextView to display BMI result -->
+    <TextView
+    android:id="@+id/result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="Result"
+    android:textSize="20dp"
+    android:textStyle="bold" />
+
+    </LinearLayout>

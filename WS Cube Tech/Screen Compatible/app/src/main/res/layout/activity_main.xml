@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Add a ScrollView to enable scrolling -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Add a LinearLayout inside the ScrollView to hold the contents that will be scrollable -->
+        <LinearLayout
+            style="@style/mySize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Add some TextViews and Buttons to demonstrate scrolling -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use Scrollbar facility" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Using dimen.xml, have to crete folder and copy it" />
+
+            <!-- Use dimen resources to set the width and height of the Buttons -->
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+            <Button
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

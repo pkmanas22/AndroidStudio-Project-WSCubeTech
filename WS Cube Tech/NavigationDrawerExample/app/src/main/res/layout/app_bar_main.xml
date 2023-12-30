@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- This LinearLayout is the root layout of the activity's XML layout file. It is set to match the parent's width and height and has a vertical orientation. -->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- The AppBarLayout is used to hold the Toolbar, which provides an app bar for the activity. It is set to match the parent's width and has a wrap_content height. -->
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- The Toolbar is included within the AppBarLayout. It is set to match the parent's width and has a wrap_content height. It is identified by the id "toolbar". -->
+
+    <include
+        layout="@layout/content_main"/>
+
+    <!-- The content_main layout is included within the LinearLayout. Its layout is defined in a separate file and will be displayed below the AppBarLayout and Toolbar. -->
+
+</LinearLayout>

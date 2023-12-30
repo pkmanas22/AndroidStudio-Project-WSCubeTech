@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/IntentPassingKotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/KotlinCalculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/KotlinSample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MapKotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RecyclerViewKotlin" vcs="Git" />
+  </component>
+</project>

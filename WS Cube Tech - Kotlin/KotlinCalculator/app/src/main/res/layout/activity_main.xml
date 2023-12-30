@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8DCB3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!-- Edit text for first number -->
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="15"
+        android:hint="@string/num1"
+        android:inputType="numberDecimal"
+        android:textStyle="italic" />
+
+    <!-- Edit text for operator -->
+    <EditText
+        android:id="@+id/operator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="15"
+        android:hint="@string/op"
+        android:inputType="text"
+        android:textStyle="italic" />
+
+    <!-- Edit text for second number -->
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="15"
+        android:hint="@string/num2"
+        android:inputType="numberDecimal"
+        android:textStyle="italic" />
+
+    <!-- Button for calculation -->
+    <Button
+        android:id="@+id/calcu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0"
+        android:text="@string/calulate" />
+
+    <!-- Text view to display result -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        android:text="@string/result"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <!-- Text view for author name -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="bottom"
+        android:text="@string/kotlin"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

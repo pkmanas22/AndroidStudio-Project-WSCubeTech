@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KotlinCalculator</string>
+    <string name="num1">Enter first number</string>
+    <string name="num2">Enter Second Number</string>
+    <string name="op">Enter the operator (+,-,/,*,^,%)</string>
+    <string name="calulate">Calculate now</string>
+    <string name="result">Result</string>
+    <string name="kotlin">made by Manas using Kotlin</string>
+</resources>

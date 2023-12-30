@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#E3DBDB"
+    android:padding="20dp">
+
+    <!-- Header Image -->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="#CC90BB"
+        android:contentDescription="Header image"/>
+
+    <!-- Name TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manas K Pradhan"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <!-- Email TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pk@manas.com"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+</LinearLayout>
